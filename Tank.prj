@@ -1,0 +1,177 @@
+# Anjuta Version 1.0.1 
+Compatibility Level: 1 
+
+<PROJECT_DESCRIPTION_START>
+<PROJECT_DESCRIPTION_END>
+<CONFIG_PROGS_START>
+<CONFIG_PROGS_END>
+<CONFIG_LIBS_START>
+dnl Check for SDL
+SDL_VERSION=1.2.0
+AM_PATH_SDL($SDL_VERSION,
+            :,
+            AC_MSG_ERROR([*** SDL version $SDL_VERSION not found!])
+)
+CFLAGS="$CFLAGS $SDL_CFLAGS"
+LIBS="$LIBS $SDL_LIBS"
+<CONFIG_LIBS_END>
+<CONFIG_HEADERS_START>
+<CONFIG_HEADERS_END>
+<CONFIG_CHARACTERISTICS_START>
+<CONFIG_CHARACTERISTICS_END>
+<CONFIG_LIB_FUNCS_START>
+<CONFIG_LIB_FUNCS_END>
+<CONFIG_ADDITIONAL_START>
+<CONFIG_ADDITIONAL_END>
+<CONFIG_FILES_START>
+<CONFIG_FILES_END>
+<MAKEFILE_AM_START>
+<MAKEFILE_AM_END>
+
+props.file.type=project
+
+anjuta.version=1.0.1
+anjuta.compatibility.level=1
+
+project.name=Tank
+project.type=GENERIC
+project.target.type=EXECUTABLE
+project.version=0.1
+project.author=Pedro Santos
+project.source.target=tank
+project.has.gettext=0
+project.programming.language=C++
+project.excluded.modules=intl
+
+project.config.extra.modules.before=
+project.config.extra.modules.after=
+project.config.blocked=0
+project.config.disable.overwriting=0 0 0 0 0 0 0 0 0 
+
+project.menu.entry=Tank Version 0.1
+project.menu.group=Applications
+project.menu.comment=Tank Version 0.1
+project.menu.icon=
+project.menu.need.terminal=0
+
+project.configure.options=
+anjuta.program.arguments=
+preferences.indent.automatic=1
+preferences.use.tabs=1
+preferences.indent.opening=0
+preferences.indent.closing=1
+preferences.tabsize=4
+preferences.indent.size=4
+preferences.autoformat.style=Style of Kangleipak
+preferences.autoformat.custom.style= -i8 -sc -bli0 -bl0 -cbi0 -ss
+preferences.autoformat.disable=0
+
+module.include.name=include
+module.include.type=
+module.include.expanded=1
+module.include.files=\
+	StringTokenizer.h\
+	Ptrsolit.h\
+	Properties.h\
+	Exceptions.h\
+	Log.h\
+	Safe.h\
+	SharedPointer.h\
+	Surface.h\
+	SpriteSequence.h\
+	Screen.h\
+	Menu.h\
+	Rectangle.h\
+	Actor.h\
+	Terrain.h\
+	Global.h\
+	SpriteHandler.h\
+	TerrainFactory.h\
+	Map.h\
+	Movable.h\
+	Point.h\
+	Direction.h\
+	Task.h\
+	Arena.h\
+	BaseTank.h\
+	KeyHandler.h\
+	HumanPlayer.h\
+	Bullet.h\
+	Weapon.h\
+	Weapons.h\
+	Explosion.h\
+	Enemy.h\
+	HumanDriver.h\
+	Lagartas.h\
+	Printable.h\
+	Random.h\
+	Tank.h\
+	TankController.h\
+	TankFactory.h\
+	TankPart.h
+
+module.source.name=src
+module.source.type=
+module.source.expanded=1
+module.source.files=\
+	StringTokenizer.cpp\
+	Properties.cpp\
+	Safe.cpp\
+	Surface.cpp\
+	SpriteSequence.cpp\
+	Screen.cpp\
+	Rectangle.cpp\
+	SpriteHandler.cpp\
+	Terrain.cpp\
+	Global.cpp\
+	Actor.cpp\
+	Map.cpp\
+	Arena.cpp\
+	Movable.cpp\
+	Direction.cpp\
+	BaseTank.cpp\
+	HumanPlayer.cpp\
+	Bullet.cpp\
+	Weapon.cpp\
+	Enemy.cpp\
+	HumanDriver.cpp\
+	Tank.cpp\
+	main.cpp
+
+module.pixmap.name=pixmaps
+module.pixmap.type=
+module.pixmap.expanded=0
+module.pixmap.files=
+
+module.data.name=data
+module.data.type=
+module.data.expanded=0
+module.data.files=
+
+module.help.name=help
+module.help.type=
+module.help.expanded=0
+module.help.files=
+
+module.doc.name=doc
+module.doc.type=
+module.doc.expanded=0
+module.doc.files=
+
+module.po.expanded=0
+module.po.files=
+
+compiler.options.supports=
+compiler.options.include.paths=
+compiler.options.library.paths=
+compiler.options.libraries=
+compiler.options.libraries.selected=
+compiler.options.defines=
+compiler.options.warning.buttons=0 0 1 1 0 1 0 0 0 0 0 0 0 1 0 0 
+compiler.options.optimize.buttons=1 0 0 0 
+compiler.options.other.buttons=1 0 
+compiler.options.other.c.flags=
+compiler.options.other.l.flags=
+compiler.options.other.l.libs=
+project.source.paths=
+

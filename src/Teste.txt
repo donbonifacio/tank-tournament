@@ -1,0 +1,5 @@
+# Teste
+A=B
+BUU=PRE
+Banho=António
+C=D

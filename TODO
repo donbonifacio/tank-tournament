@@ -1,0 +1,21 @@
+*	Controladores de Tanks
+	- Jogador Humano
+	- Jogador Humano remoto (multiplayer)
+	- AI Bot (vários com várias caracteristicas)
+
+*	Armas
+	- Normal, com vem nas sprites
+	- Laser, que passa as paredes
+	- Uma que persegue o calor (qualquer tank ou tiro)
+	- Uma que faz como que o tank atingido fique parado X milisegundos
+	- Uma que quando atring e o tank faz com que fique com as direcções trocadas
+	- Minas
+
+*	Powerups
+	- Armor
+	- Boost Speed
+	- Slow speed
+	- Air walk
+	- Indestrutivel por X tempo
+	- Invisibilidade
+	- Quad Damage

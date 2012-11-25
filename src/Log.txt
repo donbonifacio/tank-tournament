@@ -1,0 +1,57 @@
+Log System initialized.
+Tank::Global Singleton Created.
+SDL::Screen Singleton created.
+--------------------------------------------------------------------------
+|	Tank Tournament v0.2 Log File.
+|	Built with GNU G++ 3.02 on Mandrake 9.1 with SDL v1.25
+|	Debug Mode.
+--------------------------------------------------------------------------
+Auto catching all exceptions enabled.
+Initializing SDL { SDL_INIT_VIDEO }... OK
+Setting window caption "Tank Tournament"... Ok!
+Setting Window icon(img/Icon.bmp)... Done
+Checking Editor.ini... Done
+Generating DM-Teste.ttm... Done
+Loading DM-Teste.ttm Header... [==========] Complete!
+Setting 256*224 Window Video Mode on 'x11'... OK
+Printing video information:
+--------------------------------------------------------------------------
+|	Video Information:
+|	* Hardware surfaces available? 0
+|	* Window manager available? 1
+|	* HW to HW blit's acelarated? 0
+|	* HW to HW blit's using color keys acelarated? 0
+|	* HW to HW blit's using alpha acelarated? 0
+|	* SW to HW blit's acelarated? 0
+|	* SW to HW blit's using colof keys acelarated? 0
+|	* SW to HW blit's using alpha acelarated? 0
+|	* Color fills acelarated? 0
+|	* Video memory? 0 K
+|	* Bits per pixel? 32
+--------------------------------------------------------------------------
+Resizing Terrain Matrix... Done
+Loadding DM-Teste.ttm Terrain... Loading img/GreenBox.bmp... OK
+Loading img/ShadowGrass.bmp... OK
+Loading img/Grass.bmp... OK
+Done
+Death Match Arena created.
+Loading img/tank/prototype/Body.bmp... OK
+Loading img/tank/prototype/Lagartas-Simples.bmp... OK
+Loading img/tank/prototype/Weapon1.bmp... OK
+Loading img/tank/prototype/Weapon2.bmp... OK
+Loading img/tank/prototype/Weapon3.bmp... OK
+Changing to Full Screen mode native way... Success! Application toggled fullscreen state.
+Changing to Window mode native way... Success! Application toggled fullscreen state.
+Changing to Full Screen mode native way... Success! Application toggled fullscreen state.
+Changing to Window mode native way... Success! Application toggled fullscreen state.
+Changing to Full Screen mode native way... Success! Application toggled fullscreen state.
+Changing to Window mode native way... Success! Application toggled fullscreen state.
+Changing to Full Screen mode native way... Success! Application toggled fullscreen state.
+Changing to Window mode native way... Success! Application toggled fullscreen state.
+Changing to Full Screen mode native way... Success! Application toggled fullscreen state.
+Changing to Window mode native way... Success! Application toggled fullscreen state.
+Changing to Full Screen mode native way... Success! Application toggled fullscreen state.
+Changing to Window mode native way... Success! Application toggled fullscreen state.
+SDL::Screen Singleton terminated.
+Tank::Global Singleton Terminated
+Log System shutdown.
